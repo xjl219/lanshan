@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DenghuoCore", "DenghuoCore\DenghuoCore.vcproj", "{0DDDDEBD-FD45-4605-97A8-C34A020F8E67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Denghuo", "Denghuo\Denghuo.vcproj", "{9F987101-F6A6-486E-BA0A-23ABD59A59EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DDDDEBD-FD45-4605-97A8-C34A020F8E67} = {0DDDDEBD-FD45-4605-97A8-C34A020F8E67}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DDDDEBD-FD45-4605-97A8-C34A020F8E67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DDDDEBD-FD45-4605-97A8-C34A020F8E67}.Debug|Win32.Build.0 = Debug|Win32
+		{0DDDDEBD-FD45-4605-97A8-C34A020F8E67}.Release|Win32.ActiveCfg = Release|Win32
+		{0DDDDEBD-FD45-4605-97A8-C34A020F8E67}.Release|Win32.Build.0 = Release|Win32
+		{9F987101-F6A6-486E-BA0A-23ABD59A59EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F987101-F6A6-486E-BA0A-23ABD59A59EF}.Debug|Win32.Build.0 = Debug|Win32
+		{9F987101-F6A6-486E-BA0A-23ABD59A59EF}.Release|Win32.ActiveCfg = Release|Win32
+		{9F987101-F6A6-486E-BA0A-23ABD59A59EF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
